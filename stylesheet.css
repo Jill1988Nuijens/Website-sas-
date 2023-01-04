@@ -10,15 +10,15 @@
 
 /* header */
 
-li,
-a,
-button {
+.aheader {
+
     font-weight: 900;
     font-size: 27px;
     color: black;
     text-decoration: none;
 
 }
+
 
 .logo {
     width: 200px;
@@ -39,11 +39,11 @@ button {
     padding: 0px 30px;
 }
 
-.nav-links li a {
+.nav-links li .aheader {
     transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
+.nav-links li .aheader:hover {
     transition: all 0.3s ease 0s;
 }
 
@@ -55,30 +55,16 @@ header {
 
 }
 
-.toggle-button {
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 31px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-}
-
 button {
+    width: 200px;
+    height: 40px;
     padding: 9px 25px;
     margin-right: 25px;
     border: 1px, solid, black;
     border-radius: 50px;
     cursor: pointer;
     background-color: black;
+    font-size: 20px;
     color: white;
 }
 
@@ -101,9 +87,10 @@ body {
 }
 
 .fotomain {
-    margin-top: 80px;
+    margin-top: 60px;
     height: 400px;
-    width: 400px;
+    width: 420px;
+
 }
 
 .container-1 {
@@ -121,6 +108,8 @@ body {
     line-height: 1.5;
     font-size: 17px;
 }
+
+
 
 
 
@@ -237,7 +226,7 @@ h2 p {
 .over-4 {
     border: black 1px solid;
     background-color: white;
-    margin: 5px;
+    margin: 7px;
     padding: 10px;
     font-weight: bold;
     font-size: 17px;
@@ -246,19 +235,20 @@ h2 p {
 
 .imgsas {
     height: 400px;
-    width: 350px;
+    width: 300px;
 
 }
 
 .imgant {
     height: 400px;
-    width: 500px;
+    width: 600px;
+    margin-top: 18px;
 
 }
 
 .imgmars {
     height: 500px;
-    width: 500px;
+    width: 430px;
 
 }
 
@@ -292,19 +282,21 @@ h2 p {
 
 .flexparent {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .flex2 {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .box-1 {
     border: black 1px solid;
     background-color: white;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -312,7 +304,7 @@ h2 p {
     border: black 1px solid;
     background-color: white;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -320,7 +312,7 @@ h2 p {
     border: black 1px solid;
     background-color: white;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -371,6 +363,10 @@ h2 p {
     width: 320px;
     align-items: center;
     margin: 10px;
+}
+
+.linkprog {
+    font-weight: 10px;
 }
 
 
